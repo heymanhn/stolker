@@ -1,0 +1,7 @@
+<!doctype html>
+<title>Stock Price Display</title>
+{% if price == 'N/A' %}
+	<h1>Couldn't find the price for {{ symbol.upper() }}</h1>
+{% else %}
+	<h1>Today's stock price for {{ symbol.upper() }} is {{ price }}.</h1>
+{% endif %}
