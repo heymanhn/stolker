@@ -1,11 +1,14 @@
 Flask==0.10.1
+Flask-SQLAlchemy==1.0
 Jinja2==2.7.2
 MarkupSafe==0.19
+SQLAlchemy==0.9.3
 Werkzeug==0.9.4
 beautifulsoup4==4.3.2
 gunicorn==18.0
 html5lib==0.999
 itsdangerous==0.23
 lxml==3.3.3
+psycopg2==2.5.2
 six==1.6.1
 wsgiref==0.1.2

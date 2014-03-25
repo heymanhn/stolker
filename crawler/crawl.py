@@ -17,4 +17,4 @@ def fetch_price(ticker_symbol):
 	if price:
 		return locale.atof(price.get_text())
 	else:
-		return 'N/A'
+		return None
